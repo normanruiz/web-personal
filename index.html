@@ -17,11 +17,11 @@
 
 <body>
 
-  <div class="contenedor-portada">
+  <div class="contenedor-portada" id="contenedor-portada">
 
     <div class="contenedor-titulares">
-      <h3 class="titulo-h3">Desarrollador .NET / Desarrollador React </h3>
-      <h2 class="titulo-h2">Diseñador UI</h2>
+      <h3 class="titulo-h3">Diseñador UI</h3>
+      <h2 class="titulo-h2">Desarrollador .NET / Desarrollador React </h2>
     </div>
 
     <div class="contenedor-linea">
@@ -32,24 +32,69 @@
 
     <div class="contenedor-contacto">
       <div class="contenedor-borde-contacto">
-        <a href="#" class="enlace-contacto">Contactarme</a>
+        <a href="#contenedor-formulario-contactarme" class="enlace-contacto">Contactarme</a>
       </div>
     </div>
 
     <div class="contenedor-redes">
-      <a href="#" class="enlace-redes">Linkedin</a>
-      <a href="#" class="enlace-redes">Github</a>
-      <a href="#" class="enlace-redes">Instagram</a>
+      <a href="https://www.linkedin.com/in/norman-ruiz/" class="enlace-redes"><img src="./images/icono-linkedin.png" alt="Icono-LinkedIn"></a>
+      <a href="https://github.com/normanruiz/" class="enlace-redes"><img src="./images/icono-github.png" alt="Icono-GitHub"></a>
+      <a href="https://www.instagram.com/_.normanruiz._/" class="enlace-redes"><img src="./images/icono-instagram.png" alt="Icono-Instagram"></a>
     </div>
 
-    <div class="contenedor-secciones">
+    <div class="contenedor-navegacion-secciones">
+      <a href="#contenedor-acercademi" class="enlace-secciones">Acerca de mi</a>
+      <a href="#contenedor-mistrabajos" class="enlace-secciones">Mis trabajos</a>
       <img src="" alt="Logo">
-      <a href="#" class="enlace-secciones">Acerca de mi</a>
-      <a href="#" class="enlace-secciones">Mis trabajos</a>
-      <a href="#" class="enlace-secciones">Mis herramnientas</a>
+      <a href="#contenedor-misherramientas" class="enlace-secciones">Mis herramientas</a>
+      <a href="#contenedor-galeria" class="enlace-secciones">Galeria</a>
     </div>
 
   </div>
+
+
+
+
+  <div class="contenedor-acercademi" id="contenedor-acercademi">
+    <h3 class="titulos-secciones">Acerca de mi</h3>
+  </div>
+
+  <div class="contenedor-misherramientas" id="contenedor-misherramientas">
+    <h3 class="titulos-secciones">Mis herramientas</h3>
+  </div>
+
+  <div class="contenedor-mistrabajos" id="contenedor-mistrabajos">
+    <h3 class="titulos-secciones">Mis trabajos</h3>
+  </div>
+
+  <div class="contenedor-galeria" id="contenedor-galeria">
+    <h3 class="titulos-secciones">Galeria</h3>
+  </div>
+
+  <div class="contenedor-formulario-contactarme" id="contenedor-formulario-contactarme">
+    <fieldset class="borde-formulario-contactarme">
+      <legend class="leyenda-formulario-contactarme"> Contactarme </legend>
+      <form class="formulario-contactarme" action="index.html" method="post">
+        <label for="" class="etiquetas-contactarme">Nombre y apellido</label><input id="input-nombre-contactarme" class="input-nombre-contactarme" type="text" name="" value="" placeholder="Ingrese su nombre y apellido...">
+        <br>
+        <label for="" class="etiquetas-contactarme">e-Mail</label><input class="input-correo-contactarme" type="email" name="" value="" placeholder="Ingrese su casilla de correo...">
+        <br>
+        <label for="" class="etiquetas-contactarme">Consulta</label>
+        <br>
+        <textarea class="input-consulta-contactarme" name="name" rows="12" cols="100" placeholder="Escriba su consulta..."></textarea>
+        <br>
+        <input class="input-enviar-contactarme" type="submit" name="" value="Enviar">
+      </form>
+    </fieldset>
+  </div>
+
+
+
+
+
+
+
+
 
 </body>
 

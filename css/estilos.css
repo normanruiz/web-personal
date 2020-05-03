@@ -3,6 +3,9 @@ body{
 ;
 }
 
+
+/* Aqui comiensan las configuraciones para el area de la portada */
+
 .contenedor-portada{
   margin: 10px;
   padding: 2px;
@@ -10,17 +13,19 @@ body{
 }
 
 .contenedor-titulares{
-  margin: 100px 10px 10px 10px;
+  margin: 140px 10px 20px 10px;
   padding: 2px;
   text-align: center;
 }
 
-.titulo-h3{
-  color: white;
-}
-
 .titulo-h2{
   color: white;
+    font-size:48px;
+}
+
+.titulo-h3{
+  color: white;
+    font-size: 28px;
 }
 
 .contenedor-linea{
@@ -29,17 +34,17 @@ body{
 }
 
 .line-mediana{
-  width: 240px;
+  width: 400px;
 }
 
 .contenedor-contacto{
-  margin: 10px;
+  margin: 40px 20px 20px 20px;
   padding: 2px;
   text-align: center;
 }
 
 .contenedor-borde-contacto{
-  width: 120px;
+  width: 160px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -57,10 +62,11 @@ body{
   padding: 2px;
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .contenedor-redes{
-  margin: 10px;
+  margin: 20px 20px 60px 20px;
   padding: 2px;
   text-align: center;
 }
@@ -70,9 +76,106 @@ body{
   text-decoration: none;
 }
 
-.contenedor-secciones{
-  margin: 10px;
-  margin-top: 40px;
+.contenedor-navegacion-secciones{
+  margin: 140px 10px 140px 10px;
   padding: 2px;
   text-align: center;
+}
+
+.enlace-secciones{
+  margin: 20px 20px 60px 20px;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Aqui comiensan las configuraciones para el area del acerca de mi */
+
+.contenedor-acercademi{
+  margin: 20px 20px 60px 20px;
+  padding: 6px;
+  text-align: center;
+}
+
+.titulos-secciones{
+  margin: 20px
+  padding: 6px;
+  color: white;
+  font-size: 40px;
+}
+
+/* Aqui comiensan las configuraciones para el area mis herramientas */
+
+.contenedor-misherramientas{
+  margin: 20px 20px 60px 20px;
+  padding: 6px;
+  text-align: center;
+
+}
+
+/* Aqui comiensan las configuraciones para el area del mis trabajos */
+
+.contenedor-mistrabajos{
+  margin: 20px 20px 60px 20px;
+  padding: 6px;
+  text-align: center;
+}
+
+.contenedor-galeria{
+  margin: 20px 20px 60px 20px;
+  padding: 6px;
+  text-align: center;
+}
+
+
+/* Aqui comiensan las configuraciones para el area del formilario de contacto */
+
+.contenedor-formulario-contactarme{
+
+}
+
+.borde-formulario-contactarme{
+  width: 480px;
+  margin:auto;
+  padding: 20px;
+}
+
+.leyenda-formulario-contactarme{
+  color: white;
+  font-size: 20px;
+}
+
+.formulario-contactarme{
+
+}
+
+.etiquetas-contactarme{
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.input-nombre-contactarme{
+  width: 240px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.input-correo-contactarme{
+  width: 326px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.input-consulta-contactarme{
+  margin: 10px;
+  padding: 10px;
+}
+
+.input-enviar-contactarme{
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
 }
