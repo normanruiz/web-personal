@@ -20,12 +20,14 @@ body{
 
 .titulo-h2{
   color: white;
-    font-size:48px;
+  font-size:48px;
+  text-transform: uppercase;
 }
 
 .titulo-h3{
   color: white;
-    font-size: 28px;
+  font-size:34px;
+  text-transform: uppercase;
 }
 
 .contenedor-linea{
@@ -88,6 +90,7 @@ body{
   color: white;
   text-decoration: none;
   font-size: 20px;
+    text-transform: uppercase;
 }
 
 /* Aqui comiensan las configuraciones para el area del acerca de mi */
@@ -102,7 +105,8 @@ body{
   margin: 20px
   padding: 6px;
   color: white;
-  font-size: 40px;
+  font-size: 28px;
+    text-transform: uppercase;
 }
 
 /* Aqui comiensan las configuraciones para el area mis herramientas */
@@ -122,17 +126,40 @@ body{
   text-align: center;
 }
 
+/* Aqui comiensan las configuraciones para el area de la galeria */
+
 .contenedor-galeria{
   margin: 20px 20px 60px 20px;
   padding: 6px;
   text-align: center;
 }
+.item-galeria{
+  margin: 20px 20px 60px 20px;
+  padding: 6px;
+  text-align: center;
 
+}
+
+.item-galeria img{
+  width: 260px;
+  margin: 20px;
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.item-galeria p{
+  margin: 20px;
+  padding: 6px;
+  color: white;
+  font-size: 18px;
+  display: inline;
+}
 
 /* Aqui comiensan las configuraciones para el area del formilario de contacto */
 
 .contenedor-formulario-contactarme{
-
+  margin: 60px 60px 240px 60px;
+  padding: 20px;
 }
 
 .borde-formulario-contactarme{
