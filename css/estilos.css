@@ -77,13 +77,36 @@ padding-top: 40px;
 }
 
 .etiquetas-formulario{
-  color:white
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 18px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(0,0,0,0.4);
+}
+
+.etiquetas-leyend{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 22px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(0,0,0,0.4);
 }
 
 .borde-formulario{
+border-style: solid;
+border-width: medium;
+border-radius: 6px;
+border-color: black;
+margin: 10px;
+padding: 20px;
 
 }
 
 .seccion-contactarme{
-
+  margin: 20px;
+  padding: 10px;
 }
