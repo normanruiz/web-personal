@@ -1,160 +1,140 @@
-<!DOCTYPE html>
-
-<html lang="es" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
-
+  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- CSS Propio -->
   <link rel="stylesheet" href="./css/estilos.css">
 
-  <title>Norman Ruiz - Pagina Personal </title>
-
-  <script src="./js/funciones.js" charset="utf-8"></script>
-
+  <title>Norman Ruiz - Sitio Personal</title>
 </head>
 
 <body>
 
-  <div class="contenedor-portada" id="contenedor-portada">
+  <header>
+    <div class="container container-header">
+      <div class="container portada">
+        <div class="row">
+          <div class="container col-sm-4 portada-columna-perfil">
+            <img src="./images/foto-perfil.png" class="rounded-circle img-perfil" alt="Foto perfil">
 
-    <div class="contenedor-titulares">
-      <h3 class="titulo-h3">Diseñador UI</h3>
-      <h2 class="titulo-h2">Desarrollador .NET / Desarrollador React </h2>
-    </div>
+          </div>
+          <div class="container col-sm-4 portada-columna-perfil">
+          </div>
+          <div class="container col-sm-4 portada-columna-perfil">
+            <h1 class="portada-encabezados">Norman Ruiz</h1>
+            <h2 class="portada-encabezados">Analista Programador .NET</h2>
+            <h2 class="portada-encabezados">UI Design</h2>
+            <a href="#seccion-contactarme" class="btn btn-outline-dark btn-conectarme">Contactarme</a>
+          </div>
+        </div>
+      </div>
+      <div class="container portada-enlaces">
+        <div class="row">
+          <div class="container col-sm-12 redes-sociales">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/norman-ruiz/" class="nav-link enlace-redes"><img src="./images/icono-linkedin.png" alt="Icono-LinkedIn" class="imagen-redes-sociales"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://github.com/normanruiz/" class="nav-link enlace-redes"><img src="./images/icono-github.png" alt="Icono-GitHub" class="imagen-redes-sociales"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/_.normanruiz._/" class="nav-link enlace-redes"><img src="./images/icono-instagram.png" alt="Icono-Instagram" class="imagen-redes-sociales"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-    <div class="contenedor-linea">
-      <div class="contenedor-borde-linea">
-        <hr class="line-mediana">
+        <div class="row">
+          <div class="container col-sm-12 enlaces-secciones">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <p class="enlaces-secciones-a">Acerca de mi</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <p class="enlaces-secciones-a">Herramientas</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <img src="" alt="Logo">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <p class="enlaces-secciones-a">Portafolio</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contactarme">
+                  <p class="enlaces-secciones-a">Contactarme</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
     </div>
+  </header>
 
-    <div class="contenedor-contacto">
-      <div class="contenedor-borde-contacto">
-        <a href="#contenedor-formulario-contactarme" class="enlace-contacto">Contactarme</a>
+  <section id="seccion-contactarme">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="container col-sm-8 seccion-contactarme">
+
+          <form>
+            <fieldset class="borde-formulario">
+              <legend class="etiquetas-formulario"> Contactarme </legend>
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <label for="input-nombre" class="etiquetas-formulario">Nombre</label>
+                    <input type="text" id="input-nombre" class="form-control" placeholder="Ingresa tu nombre...">
+                  </div>
+                  <div class="col">
+                    <label for="input-apellido" class="etiquetas-formulario">Apellido</label>
+                    <input type="text" id="input-apellido" class="form-control" placeholder="Ingresa tu apellido...">
+                  </div>
+                </div>
+              </form>
+              <div class="form-group">
+                <label for="input-correo" class="etiquetas-formulario">e-Mail</label>
+                <input type="email" class="form-control" id="input-correo" aria-describedby="ayuda-correo" placeholder="Ingresa tu correo electronico...">
+                <small id="ayuda-correo" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+              </div>
+              <div class="form-group">
+                <label for="textarea-Consulta" class="etiquetas-formulario">Consulta</label>
+                <textarea class="form-control" id="textarea-Consulta" rows="4" placeholder="Escribe tu consulta..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-sm-2">
+        </div>
       </div>
     </div>
-
-    <div class="contenedor-redes">
-      <a href="https://www.linkedin.com/in/norman-ruiz/" class="enlace-redes"><img src="./images/icono-linkedin.png" alt="Icono-LinkedIn"></a>
-      <a href="https://github.com/normanruiz/" class="enlace-redes"><img src="./images/icono-github.png" alt="Icono-GitHub"></a>
-      <a href="https://www.instagram.com/_.normanruiz._/" class="enlace-redes"><img src="./images/icono-instagram.png" alt="Icono-Instagram"></a>
-    </div>
-
-    <div class="contenedor-navegacion-secciones">
-      <a href="#contenedor-acercademi" class="enlace-secciones">Acerca de mi</a>
-      <a href="#contenedor-mistrabajos" class="enlace-secciones">Mis trabajos</a>
-      <img src="" alt="Logo">
-      <a href="#contenedor-misherramientas" class="enlace-secciones">Mis herramientas</a>
-      <a href="#contenedor-galeria" class="enlace-secciones">Galeria</a>
-    </div>
-
-  </div>
+  </section>
 
 
 
-
-  <div class="contenedor-acercademi" id="contenedor-acercademi">
-    <h3 class="titulos-secciones">Acerca de mi</h3>
-    <div class="acercademi-ayer">
-      <img src="" alt="Lo que paso">
-      <p>Detallo como llegue hasrta aca.</p>
-    </div>
-    <div class="acercademi-hoy">
-      <img src="" alt="Lo que paso">
-      <p>Detallo como llegue hasrta aca.</p>
-    </div>
-    <div class="acercademi-mañana">
-      <img src="" alt="Lo que paso">
-      <p>Detallo como llegue hasrta aca.</p>
-    </div>
-          <a href="#contenedor-portada" class="enlace-secciones">Inicio</a>
-  </div>
-
-  <div class="contenedor-misherramientas" id="contenedor-misherramientas">
-    <h3 class="titulos-secciones">Mis herramientas</h3>
-
-      <a href="#contenedor-portada" class="enlace-secciones">Inicio</a>
-  </div>
-
-  <div class="contenedor-mistrabajos" id="contenedor-mistrabajos">
-    <h3 class="titulos-secciones">Mis trabajos</h3>
-
-          <a href="#contenedor-portada" class="enlace-secciones">Inicio</a>
-  </div>
-
-  <div class="contenedor-galeria" id="contenedor-galeria">
-    <h3 class="titulos-secciones">Galeria</h3>
-
-    <div class="item-galeria">
-      <img src="./images/cu-001.png" alt="cu-001.png">
-      <P>Pequeño curso de nodejs para introducirme en esta neva tecnologia.</p>
-    </div>
-
-
-    <div class="item-galeria">
-      <P>Ampliando conocimientos para la facultad y el trabajo.</p>
-      <img src="./images/cu-002.png" alt="cu-002.png">
-    </div>
-
-    <div class="item-galeria">
-      <img src="./images/yo-001.png" alt="yo-001.png">
-      <P>Salida a despejar la mente y estirar los musculos.</p>
-    </div>
-
-
-    <div class="item-galeria">
-      <P>Refrescando conceptos de uso cotidiano.</p>
-      <img src="./images/cu-003.png" alt="cu-003.png">
-    </div>
-
-    <div class="item-galeria">
-      <img src="./images/cu-004.png" alt="cu-004.png">
-      <P>Empesando a conocer la otra pata de mi meta...</p>
-    </div>
-
-
-    <div class="item-galeria">
-      <P>Esa sonrisa llena de energia mueve montañas !!!</p>
-      <img src="./images/yo-002.png" alt="yo-002.png">
-    </div>
-
-    <div class="item-galeria">
-      <img src="./images/cu-005.png" alt="cu-005.png">
-      <P>Incluyendo tecnologias para nuevos retos.</p>
-    </div>
-
-
-    <div class="item-galeria">
-      <P>La demanda exige ampliar el abanico de herramientas.</p>
-      <img src="./images/cu-006.png" alt="cu-006.png">
-    </div>
-      <a href="#contenedor-portada" class="enlace-secciones">Inicio</a>
-  </div>
-
-  <div class="contenedor-formulario-contactarme" id="contenedor-formulario-contactarme">
-    <fieldset class="borde-formulario-contactarme">
-      <legend class="leyenda-formulario-contactarme"> Contactarme </legend>
-      <form class="formulario-contactarme" action="index.html" method="post">
-        <label for="" class="etiquetas-contactarme">Nombre y apellido</label><input id="input-nombre-contactarme" class="input-nombre-contactarme" type="text" name="" value="" placeholder="Ingrese su nombre y apellido...">
-        <br>
-        <label for="" class="etiquetas-contactarme">e-Mail</label><input class="input-correo-contactarme" type="email" name="" value="" placeholder="Ingrese su casilla de correo...">
-        <br>
-        <label for="" class="etiquetas-contactarme">Consulta</label>
-        <br>
-        <textarea class="input-consulta-contactarme" name="name" rows="12" cols="100" placeholder="Escriba su consulta..."></textarea>
-        <br>
-        <input class="input-enviar-contactarme" type="submit" name="" value="Enviar">
-      </form>
-    </fieldset>
-  </div>
-
-
-<footer>
-  <p>Aqui va el pie de pagina con los legales copyright etc.</p>
-</footer>
-
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>

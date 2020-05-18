@@ -1,208 +1,89 @@
-body{
-  background-color: #293133
-;
+header {
+  background-color: #212729;
+}
+section{
+  background-color: #212729;
 }
 
+.container-header{
+padding-top: 40px;
+}
 
-/* Aqui comiensan las configuraciones para el area de la portada */
+.portada{
+  background-image:
+    url("../images/fondo-header.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
 
-.contenedor-portada{
-  margin: 10px;
-  padding: 2px;
+.portada-enlaces{
+  border-top: 100px;
+}
+
+.img-perfil{
+  padding-top: 15px;
+}
+
+.portada-columna-perfil{
   text-align: center;
 }
 
-.contenedor-titulares{
-  margin: 140px 10px 20px 10px;
-  padding: 2px;
-  text-align: center;
-}
-
-.titulo-h2{
-  color: white;
-  font-size:48px;
+.portada-encabezados{
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  margin:20px;
+  text-shadow: 4px 2px 1px rgba(255,255,255,0.6);
   text-transform: uppercase;
 }
 
-.titulo-h3{
-  color: white;
-  font-size:34px;
-  text-transform: uppercase;
+.btn-conectarme{
+
 }
 
-.contenedor-linea{
-  margin: 10px;
-  padding: 2px;
+.redes-sociales{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.line-mediana{
-  width: 400px;
-}
-
-.contenedor-contacto{
-  margin: 40px 20px 20px 20px;
-  padding: 2px;
-  text-align: center;
-}
-
-.contenedor-borde-contacto{
-  width: 160px;
-  margin: auto;
+.enlaces-secciones{
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 2px;
-  text-align: center;
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
-  border-radius: 4px;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.enlace-contacto{
-  margin: 10px;
-  padding: 2px;
+.imagen-redes-sociales{
+  width: 60px;
+  height: 60px;
+}
+
+.enlaces-secciones-a{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
   color: white;
-  text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(0,0,0,0.4);
 }
 
-.contenedor-redes{
-  margin: 20px 20px 60px 20px;
-  padding: 2px;
-  text-align: center;
+.btn-enviar{
+  width: 140px;
 }
 
-.enlace-redes{
-  color: white;
-  text-decoration: none;
+.etiquetas-formulario{
+  color:white
 }
 
-.contenedor-navegacion-secciones{
-  margin: 140px 10px 140px 10px;
-  padding: 2px;
-  text-align: center;
-}
-
-.enlace-secciones{
-  margin: 20px 20px 60px 20px;
-  padding: 2px;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-    text-transform: uppercase;
-}
-
-/* Aqui comiensan las configuraciones para el area del acerca de mi */
-
-.contenedor-acercademi{
-  margin: 20px 20px 60px 20px;
-  padding: 6px;
-  text-align: center;
-}
-
-.titulos-secciones{
-  margin: 20px
-  padding: 6px;
-  color: white;
-  font-size: 28px;
-    text-transform: uppercase;
-}
-
-/* Aqui comiensan las configuraciones para el area mis herramientas */
-
-.contenedor-misherramientas{
-  margin: 20px 20px 60px 20px;
-  padding: 6px;
-  text-align: center;
+.borde-formulario{
 
 }
 
-/* Aqui comiensan las configuraciones para el area del mis trabajos */
+.seccion-contactarme{
 
-.contenedor-mistrabajos{
-  margin: 20px 20px 60px 20px;
-  padding: 6px;
-  text-align: center;
-}
-
-/* Aqui comiensan las configuraciones para el area de la galeria */
-
-.contenedor-galeria{
-  margin: 20px 20px 60px 20px;
-  padding: 6px;
-  text-align: center;
-}
-.item-galeria{
-  margin: 20px 20px 60px 20px;
-  padding: 6px;
-  text-align: center;
-
-}
-
-.item-galeria img{
-  width: 260px;
-  margin: 20px;
-  padding: 6px;
-  vertical-align: middle;
-}
-
-.item-galeria p{
-  margin: 20px;
-  padding: 6px;
-  color: white;
-  font-size: 18px;
-  display: inline;
-}
-
-/* Aqui comiensan las configuraciones para el area del formilario de contacto */
-
-.contenedor-formulario-contactarme{
-  margin: 60px 60px 240px 60px;
-  padding: 20px;
-}
-
-.borde-formulario-contactarme{
-  width: 480px;
-  margin:auto;
-  padding: 20px;
-}
-
-.leyenda-formulario-contactarme{
-  color: white;
-  font-size: 20px;
-}
-
-.formulario-contactarme{
-
-}
-
-.etiquetas-contactarme{
-  margin: 10px;
-  padding: 10px;
-  color: white;
-  font-size: 18px;
-}
-
-.input-nombre-contactarme{
-  width: 240px;
-  margin: 10px;
-  padding: 5px;
-}
-
-.input-correo-contactarme{
-  width: 326px;
-  margin: 10px;
-  padding: 5px;
-}
-
-.input-consulta-contactarme{
-  margin: 10px;
-  padding: 10px;
-}
-
-.input-enviar-contactarme{
-  margin: 10px;
-  padding: 5px;
-  width: 100px;
 }
