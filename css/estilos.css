@@ -1,12 +1,9 @@
-header {
-  background-color: #212729;
-}
-section{
+body {
   background-color: #212729;
 }
 
 .container-header{
-padding-top: 40px;
+  padding-top: 40px;
 }
 
 .portada{
@@ -115,4 +112,61 @@ padding: 20px;
 .seccion-contactarme{
   margin: 20px;
   padding: 10px;
+}
+
+.footer-leyenda{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 16px;
+  margin:20px 10px 20px 10px;
+}
+
+.seccion-acercademi{
+
+}
+
+.seccion-acercademi-contenedor{
+  margin-top: 100px;
+}
+
+.seccion-acercademi-titulo{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(239,184,16,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 16px;
+  border-color: #EFB810;
+  padding: 10px 28px 10px 28px;
+  box-shadow: 4px 4px 6px rgba(239,184,16,0.4);
+  text-align: center;
+}
+
+.seccion-acercademi-subtitulos{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(239,184,16,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 16px;
+  border-color: #EFB810;
+  padding: 10px 28px 10px 28px;
+  box-shadow: 4px 4px 6px rgba(239,184,16,0.4);
+  text-align: center;
+}
+
+.seccion-acercademi-parrafo{
+color: white;
+padding: 10px 28px 10px 28px;
+text-align: justify;
 }
