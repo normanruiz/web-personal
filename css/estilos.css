@@ -133,18 +133,14 @@ padding: 20px;
 
 .seccion-acercademi-titulo{
   font-family: serif;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 2px;
-  color: white;
-  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 48px;
   margin:20px 10px 20px 10px;
   text-shadow: 4px 2px 1px rgba(239,184,16,0.4);
-  border-style: solid;
-  border-width: thin;
-  border-radius: 16px;
-  border-color: #EFB810;
   padding: 10px 28px 10px 28px;
-  box-shadow: 4px 4px 6px rgba(239,184,16,0.4);
   text-align: center;
 }
 
@@ -169,4 +165,88 @@ padding: 20px;
 color: white;
 padding: 10px 28px 10px 28px;
 text-align: justify;
+}
+
+.enlaces-retroceder-acercademi{
+  width: 60px;
+  height: 60px;
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 26px;
+  margin: 60px;
+  padding: 10px;
+  text-shadow: 4px 2px 1px rgba(239,184,16,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 30px;
+  border-color: #EFB810;
+  box-shadow: 4px 4px 6px rgba(239,184,16,0.4);
+  text-align: center;
+  text-decoration: none;
+}
+
+.seccion-herramientas{
+
+}
+
+.seccion-herramientas-contenedor{
+  margin-top: 100px;
+}
+
+.seccion-herramientas-titulo{
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(0,170,228,0.4);
+  padding: 10px 28px 10px 28px;
+  text-align: center;
+}
+
+.seccion-herramientas-subtitulos{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(239,184,16,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 16px;
+  border-color: #EFB810;
+  padding: 10px 28px 10px 28px;
+  box-shadow: 4px 4px 6px rgba(239,184,16,0.4);
+  text-align: center;
+}
+
+.seccion-herramientas-parrafo{
+color: white;
+padding: 10px 28px 10px 28px;
+text-align: justify;
+}
+
+.enlaces-retroceder-herramientas{
+  width: 60px;
+  height: 60px;
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 26px;
+  margin: 60px;
+  padding: 10px;
+  text-shadow: 4px 2px 1px rgba(0,170,228,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 30px;
+  border-color: #00AAE4;
+  box-shadow: 4px 4px 6px rgba(0,170,228,0.4);
+  text-align: center;
+  text-decoration: none;
 }
