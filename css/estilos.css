@@ -250,3 +250,72 @@ text-align: justify;
   text-align: center;
   text-decoration: none;
 }
+
+.seccion-portafolios{
+
+}
+
+.seccion-portafolios-contenedor{
+  margin-top: 100px;
+}
+
+.seccion-portafolios-titulo{
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(4,255,0,0.4);
+  padding: 10px 28px 10px 28px;
+  text-align: center;
+}
+
+.seccion-portafolios-subtitulos{
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  margin:20px 10px 20px 10px;
+  text-shadow: 4px 2px 1px rgba(4,255,0,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 16px;
+  border-color: #04FF00;
+  padding: 10px 28px 10px 28px;
+  box-shadow: 4px 4px 6px rgba(4,255,0,0.4);
+  text-align: center;
+}
+
+.seccion-portafolios-parrafo{
+color: white;
+padding: 10px 28px 10px 28px;
+text-align: justify;
+}
+
+.enlaces-retroceder-portafolios{
+  width: 60px;
+  height: 60px;
+  font-family: serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 26px;
+  margin: 60px;
+  padding: 10px;
+  text-shadow: 4px 2px 1px rgba(4,255,0,0.4);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 30px;
+  border-color: #04FF00;
+  box-shadow: 4px 4px 6px rgba(4,255,0,0.4);
+  text-align: center;
+  text-decoration: none;
+}
+
+.tarjeta-trabajo{
+  background-color: #9C9C9C;
+
+}
